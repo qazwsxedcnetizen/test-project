@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>我的个人主页</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      padding: clamp(1rem, 5vw, 4rem);
+      background: #eef4ee;
+      color: #18362b;
+      font: 1rem/1.7 system-ui, sans-serif;
+    }
+    main {
+      max-width: 42rem;
+      margin: 5vh auto;
+      padding: clamp(1.5rem, 6vw, 4rem);
+      background: #fff;
+      border-radius: 1.5rem;
+      border-top: .4rem solid #347957;
+    }
+    h1 { font-size: clamp(2rem, 7vw, 3.5rem); line-height: 1.15; margin: 0; }
+    h2 { font-size: 1.25rem; margin: 2rem 0 .5rem; }
+    p { margin: .75rem 0; }
+    a { color: #236648; text-underline-offset: .2em; }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>你好，欢迎来访！</h1>
+      <p>这里是我的个人主页，记录学习笔记和项目进展。</p>
+    </header>
+    <section aria-labelledby="projects">
+      <h2 id="projects">我的项目</h2>
+      <p>这张主页是我的第一个 HTML + CSS 小项目。</p>
+      <a href="https://github.com/qazwsxedcnetizen/test-project">在 GitHub 查看源码</a>
+    </section>
+  </main>
+</body>
+</html>
